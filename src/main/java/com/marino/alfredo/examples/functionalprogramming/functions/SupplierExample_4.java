@@ -6,7 +6,7 @@ public class SupplierExample_4 {
 
     public static void main(String[] args) {
 
-        Supplier<Double> generateRandomNumber = () -> Math.random();
+        Supplier<Long> generateRandomNumber = () -> Math.round(Math.random() * 100);
 
         System.out.println(generateRandomNumber.get());
         System.out.println(generateRandomNumber.get());

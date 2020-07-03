@@ -7,12 +7,13 @@ public class Reference {
     public static void main(String[] args) {
         List<String> names = List.of("Maria", "pedro", "Ramon");
 
+        for (String name : names) {
+            print(name);
+        }
+
         names.forEach(name -> print(name));
-        
 
-
-//        System.out.println("/////////////////");
-//        names.forEach(Reference::print);
+        names.forEach(Reference::print);
     }
 
     public static void print(String text) {
