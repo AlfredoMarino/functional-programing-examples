@@ -1,4 +1,4 @@
-# Functional Programming Speech
+# Functional Programming Summary
 
 ### Programación funcional
 es un paradigma, es un estilo de programación
